@@ -27,13 +27,14 @@ except ImportError:
         os.system(
             f"{'py -3' if os.name == 'nt' else 'python3'} -m pip install discord_webhook")
 
-
+"""
 def delay_print(s):
   for c in s:
     sys.stdout.write(c)
     sys.stdout.flush()
     time.sleep(0.025)
-        
+"""     
+
 #Base Nitro Generator:
 class NitroGen:
     def __init__(self):
@@ -50,13 +51,14 @@ class NitroGen:
             print(f'\33]0;Nitro Generator and Checker - Made by G.L Aria\a', end='', flush=True)
 
         print("""\033[31;2;40m
-███████╗███████╗██████╗░███╗░░██╗░██████╗░
-██╔════╝██╔════╝██╔══██╗████╗░██║██╔════╝░
-█████╗░░█████╗░░██║░░██║██╔██╗██║██║░░██╗░
-██╔══╝░░██╔══╝░░██║░░██║██║╚████║██║░░╚██╗
-██║░░░░░██║░░░░░██████╔╝██║░╚███║╚██████╔╝
-╚═╝░░░░░╚═╝░░░░░╚═════╝░╚═╝░░╚══╝░╚═════╝░
-Free Fast Discord Nitro Generator V 1.1.0""")
+___________.__           ________          __   _______          __         ___    
+\__    ___/|  |__   ____ \______ \   _____/  |_ \      \   _____/  |_   /\  \  \   
+  |    |   |  |  \_/ __ \ |    |  \ /  _ \   __\/   |   \_/ __ \   __\  \/   \  \  
+  |    |   |   Y  \  ___/ |    `   (  <_> )  | /    |    \  ___/|  |    /\    )  ) 
+  |____|   |___|  /\___  >_______  /\____/|__| \____|__  /\___  >__|    )/   /  /  
+                \/     \/        \/                    \/     \/            /__/  
+        GitHub: @TheDotNet1 Telegram: @ImHackerlol
+                """)
         time.sleep(2)
         self.slowType("Made by G.L Aria", .02)
         time.sleep(1)
