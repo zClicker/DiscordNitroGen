@@ -45,7 +45,7 @@ class NitroGen:
         os.system('cls' if os.name == 'nt' else 'clear')
         if os.name == "nt":
             print("")
-            ctypes.windll.kernel32.SetConsoleTitleW("Nitro Generator and Checker - Made by TheDotNet1")
+            ctypes.windll.kernel32.SetConsoleTitleW("Nitro Generator and Checker - Made by zClicker")
 
         else:
             print(f'\33]0;Nitro Generator and Checker - Made by TheDotNet1\a', end='', flush=True)
@@ -57,7 +57,7 @@ ___________.__           ________          __   _______          __         ___
   |    |   |   Y  \  ___/ |    `   (  <_> )  | /    |    \  ___/|  |    /\    )  ) 
   |____|   |___|  /\___  >_______  /\____/|__| \____|__  /\___  >__|    )/   /  /  
                 \/     \/        \/                    \/     \/            /__/  
-        GitHub: @TheDotNet1 Telegram: @ImHackerlol
+        GitHub: @zClicker Telegram: @cvvdracoyz
                 """)
         time.sleep(2)
         self.slowType("Made by TheDotNet1", .02)
@@ -92,11 +92,11 @@ ___________.__           ________          __   _______          __         ___
                 print(f" Error | {url} ")
 
             if os.name == "nt":
-                ctypes.windll.kernel32.SetConsoleTitleW(f"Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by TheDotNet1")
+                ctypes.windll.kernel32.SetConsoleTitleW(f"Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by zClicker")
                 print("")
 
             else:
-                print(f'\33]0;Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by TheDotNet1\a', end='', flush=True)
+                print(f'\33]0;Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by zClicker\a', end='', flush=True)
 
         print(f"""
 Here Your Results:
